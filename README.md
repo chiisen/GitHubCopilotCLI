@@ -23,3 +23,27 @@ npm install -g @github/copilot
 ```bash
 copilot
 ```
+
+## 新增 MCP - context7
+參考: https://github.com/upstash/context7
+
+### Using Context7 with Copilot Coding Agent
+Add the following configuration to the mcp section of your Copilot Coding Agent configuration file Repository->Settings->Copilot->Coding agent->MCP configuration:
+```json
+{
+  "mcpServers": {
+    "context7": {
+      "type": "http",
+      "url": "https://mcp.context7.com/mcp",
+      "headers": {
+        "CONTEXT7_API_KEY": "YOUR_API_KEY"
+      },
+      "tools": ["get-library-docs", "resolve-library-id"]
+    }
+  }
+}
+```
+
+### API Key
+https://context7.com/dashboard
+
