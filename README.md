@@ -16,3 +16,9 @@ GitHub Copilot CLI 現已公開預覽，讓開發者可直接在終端機中使�
 ```bash
 npm install -g @github/copilot
 ```
+
+### 啟動 CLI
+```bash
+copilot
+```
+
