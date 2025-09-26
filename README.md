@@ -47,3 +47,6 @@ Add the following configuration to the mcp section of your Copilot Coding Agent 
 ### API Key
 https://context7.com/dashboard
 
+![context7](./images/context7.png)
+
+
