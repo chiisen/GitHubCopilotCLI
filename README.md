@@ -1,6 +1,8 @@
 # GitHubCopilotCLI
-GitHub Copilot CLI
 
+![CopilotCLI](./images/CopilotCLI.png)
+
+## 介紹
 GitHub Copilot CLI 現已公開預覽，讓開發者可直接在終端機中使用 GitHub Copilot 智能編程助手，無需切換上下文。它具備以下特色：
 
 - 原生終端機開發體驗，能在命令行內同步與 AI 代理互動。
@@ -17,8 +19,7 @@ GitHub Copilot CLI 現已公開預覽，讓開發者可直接在終端機中使�
 npm install -g @github/copilot
 ```
 
-### 啟動 CLI
+## 啟動 CLI
 ```bash
 copilot
 ```
-
