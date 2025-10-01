@@ -15,6 +15,7 @@ GitHub Copilot CLI 現已公開預覽，讓開發者可直接在終端機中使�
 
 ## 安裝
 - Node.js v22 或更高版本
+目前 Windows 只能跑 WSL
 ```bash
 npm install -g @github/copilot
 ```
@@ -49,4 +50,13 @@ https://context7.com/dashboard
 
 ![context7](./images/context7.png)
 
-
+## DEMO
+![GC01](./images/GC01.png)
+### PROMPT
+```bash
+請你為我生成一個hello world 網頁 html 主題風格。                                                                                                                 │ 
+請從以下風格中隨機選擇一種：                                                                                                                                     │ 
+極簡風、復古風、未來科技風、自然風、藝術風。                                                                                                                     │ 
+每種風格包含特定的顏色方案、字體、版面佈局。                                                                                                                     │ 
+請根據所選風格詳細描述配色方案、字體使用及版面結構，產生完整的設計方案。
+```
