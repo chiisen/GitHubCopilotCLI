@@ -25,6 +25,15 @@ npm install -g @github/copilot
 copilot
 ```
 
+## PROMPT
+```bash
+參考 https://github.com/github/copilot-cli 網頁幫我產生一個 HTML 的說明網頁
+```
+⭐總算在 PowerShell 能正常開檔案了👍
+
+## 執行
+瀏覽器開啟 ./docs/copilot-cli.html
+
 ## 新增 MCP - context7
 參考: https://github.com/upstash/context7
 
